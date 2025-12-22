@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jesus Generation VIP - Fan Access & Support</title>
+
+<!-- SEO Meta Tags -->
+<meta name="description" content="Helping fans navigate sold-out shows and unfair resale pricing. Independent fan support hub for Jesus Generation Tour.">
+<meta name="keywords" content="Jesus Generation Tour, fan support, ticket help, sold-out shows, fair pricing">
+<meta name="author" content="Jesus Generation VIP">
+
+<!-- Open Graph Tags -->
+<meta property="og:title" content="Jesus Generation VIP - Fan Access & Support">
+<meta property="og:description" content="Helping fans navigate sold-out shows and unfair resale pricing. Independent fan support hub for Jesus Generation Tour.">
+<meta property="og:url" content="https://jesusgeneration.vip">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://jesusgeneration.vip/preview.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jesus Generation VIP - Fan Access & Support">
+<meta name="twitter:description" content="Helping fans navigate sold-out shows and unfair resale pricing. Independent fan support hub for Jesus Generation Tour.">
+<meta name="twitter:image" content="https://jesusgeneration.vip/preview.jpg">
+
+<!-- reCAPTCHA -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LdAhDMsAAAAACVhy__0fbcj00YmIWIX0gCR4HZP"></script>
+
+<style>
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#fff; color:#333; line-height:1.6; }
+header, section, footer { padding:40px 20px; max-width:900px; margin:auto; }
+h1,h2{ margin-bottom:20px; }
+h1{ font-size:2.5em; font-weight:bold; }
+h2{ font-size:1.8em; color:#333; }
+p{ margin-bottom:15px; }
+.btn-primary{ display:inline-block; background:#d4af37; color:#fff; padding:12px 20px; text-decoration:none; font-weight:bold; border-radius:4px; cursor:pointer; }
+.btn-secondary{ display:inline-block; margin-top:10px; color:#d4af37; text-decoration:underline; }
+hr{ border:none; border-top:2px solid #d4af37; margin:40px 0; }
+.form-group{ margin-bottom:15px; }
+input,textarea{ width:100%; padding:10px; border:1px solid #ccc; border-radius:4px; }
+footer{ text-align:center; font-size:0.9em; color:#666; }
+#thankYouMessage { display:none; padding:20px; background:#d4f0d4; border:1px solid #a3d5a3; border-radius:4px; margin-top:20px; }
+@media(max-width:768px){ h1{font-size:2em;} h2{font-size:1.5em;} }
+</style>
+
+<script>
+function executeRecaptcha(event) {
+    event.preventDefault();
+    grecaptcha.ready(function() {
+        grecaptcha.execute('6LdAhDMsAAAAACVhy__0fbcj00YmIWIX0gCR4HZP', {action: 'submit'}).then(function(token) {
+            document.getElementById('g-recaptcha-response').value = token;
+            submitForm();
+        });
+    });
+}
+
+function submitForm() {
+    const form = document.getElementById('fanSupportForm');
+    const formData = new FormData(form);
+    fetch(form.action, { method: form.method, body: formData, headers: { 'Accept': 'application/json' }})
+        .then(response => {
+            if (response.ok) {
+                form.style.display = 'none';
+                document.getElementById('thankYouMessage').style.display = 'block';
+            } else {
+                alert("There was a problem submitting the form. Please try again.");
+            }
+        })
+        .catch(() => alert("There was a network error. Please try again."));
+}
+</script>
+</head>
+
+<body>
+<header>
+<h1>Helping fans navigate sold-out shows and unfair resale pricing.</h1>
+<p>This page exists to help families and fans understand what legitimate options may still exist for Jesus Generation Tour dates, without pressure or inflated pricing.</p>
+<p style="font-size:0.9em;color:#666;">Independent fan support hub working alongside tour management.</p>
+<a href="#request-help" class="btn-primary">Request help with tickets</a><br><br>
+<a href="#why" class="btn-secondary">Why this page exists</a>
+</header>
+
+<hr>
+
+<section id="why">
+<h2>Why we’re doing this</h2>
+<p>Over the last few tours, ticket resale and dynamic pricing have pushed many families out. Shows selling out in minutes. Seats relisted for hundreds or thousands of dollars. Parents trying to give their kids a first concert and realizing it’s no longer possible.</p>
+<p>This page exists to restore clarity and dignity to that process.</p>
+<p>I help fans understand what options may still exist when a show looks impossible, whether that means checking nearby cities, tracking limited releases, or being honest when nothing reasonable is available.</p>
+<p>No pressure. No promises. Just clarity.</p>
+<p><em>Scott<br>Jesus Generation Tour<br>Fan Access & Support</em></p>
+</section>
+
+<hr>
+
+<section>
+<h2>How fan support works</h2>
+<p><strong>1. You reach out</strong><br>You share the city you were hoping for and how many tickets you need.</p>
+<p><strong>2. I check what’s realistic</strong><br>That may include nearby dates, small availability changes, or confirming that nothing affordable exists right now.</p>
+<p><strong>3. You decide</strong><br>There is no obligation. If it makes sense, great. If it doesn’t, you walk away informed.</p>
+<p style="font-size:0.9em; color:#666;">I do not resell tickets at inflated prices and I do not encourage overspending.</p>
+</section>
+
+<hr>
+
+<section>
+<h2>A quick clarification</h2>
+<ul>
+<li>This is not Ticketmaster</li>
+<li>This is not resale or scalping</li>
+<li>This does not guarantee tickets</li>
+<li>This does not involve bidding or markups</li>
+</ul>
+<p style="font-size:0.9em;color:#666;">
+This page is shared only with fans who publicly requested help or information.
+</p>
+<p>What I can offer is transparency, advocacy for fans, and respect for your budget.</p>
+</section>
+
+<hr>
+
+<section>
+<h2>This page is for you if</h2>
+<ul>
+<li>You were priced out of a show</li>
+<li>Tickets sold out before you had a chance</li>
+<li>You were trying to buy for your kids or family</li>
+<li>Resale prices made you step back</li>
+<li>You just want to understand your options clearly</li>
+</ul>
+<p>If that’s you, you’re in the right place.</p>
+</section>
+
+<hr>
+
+<section id="request-help">
+<h2>Request fan support</h2>
+<p>If you’d like me to take a look, fill this out and I’ll respond personally.</p>
+<form id="fanSupportForm" action="https://formspree.io/f/mykgneeq" method="POST" onsubmit="executeRecaptcha(event)">
+<div class="form-group"><input type="text" name="name" placeholder="Name" required></div>
+<div class="form-group"><input type="email" name="email" placeholder="Email" required></div>
+<div class="form-group"><input type="text" name="city" placeholder="City you wanted" required></div>
+<div class="form-group"><input type="number" name="tickets" placeholder="Number of tickets" required></div>
+<div class="form-group"><textarea name="note" placeholder="Optional note (one sentence max)"></textarea></div>
+<input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+<button type="submit" class="btn-primary">Request clarity</button>
+<p style="font-size:0.9em; color:#666;">Responses are handled manually. Please allow time.</p>
+</form>
+<div id="thankYouMessage">Thank you! Your request has been submitted. I will respond personally as soon as possible.</div>
+</section>
+
+<hr>
+
+<section>
+<h2>About this page</h2>
+<p>This domain is used exclusively for Jesus Generation Tour fan support and outreach. It exists to reduce confusion, discourage predatory resale, and help fans make informed decisions.</p>
+<p>You are never required to purchase anything through this page.</p>
+<p>Contact: <a href="mailto:contact@jesusgeneration.vip">contact@jesusgeneration.vip</a></p>
+</section>
+
+<footer>
+<p>Jesus Generation Tour<br>Fan Access & Support<br>© 2026<br>jesusgeneration.vip</p>
+</footer>
+</body>
+</html>
