@@ -1,148 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jesus Generation Fan Access</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-      background-color: #f6f7f8;
-      color: #1c1e21;
-      line-height: 1.5;
-    }
-    .container {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    .card {
-      background: #ffffff;
-      padding: 32px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 28px;
-      font-weight: 600;
-    }
-    p {
-      margin: 16px 0;
-      font-size: 16px;
-    }
-    form {
-      margin-top: 24px;
-    }
-    label {
-      display: block;
-      margin-bottom: 6px;
-      font-weight: 500;
-    }
-    input, textarea {
-      width: 100%;
-      padding: 10px 12px;
-      margin-bottom: 18px;
-      border: 1px solid #ccd0d5;
-      border-radius: 4px;
-      font-size: 15px;
-    }
-    textarea {
-      min-height: 100px;
-      resize: vertical;
-    }
-    button {
-      background-color: #1c1e21;
-      color: #ffffff;
-      border: none;
-      padding: 12px 18px;
-      font-size: 15px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    button:hover {
-      opacity: 0.9;
-    }
-    .confirmation {
-      display: none;
-      margin-top: 24px;
-      padding: 16px;
-      background-color: #f0f2f5;
-      border-radius: 6px;
-      font-size: 15px;
-    }
-    footer {
-      margin-top: 24px;
-      font-size: 14px;
-      color: #606770;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <h1>Jesus Generation Fan Access</h1>
+<h1>Jesus Generation Fan Access</h1>
 
-      <p>
-        Coordinating remaining fan access requests for upcoming tour dates.
-      </p>
+<p>
+Coordinating remaining fan access requests for upcoming tour dates.
+</p>
 
-      <p>
-        Many families encountered pricing, resale, or availability issues after the
-        initial ticket release.
-      </p>
+<p>
+This page is referenced in comment replies and direct messages across Facebook.
+</p>
 
-      <p>
-        This page exists to centralize legitimate fan requests so details remain
-        accurate and consistent.
-      </p>
+<p>
+Many families encountered pricing, resale, or availability issues after the initial ticket release.
+</p>
 
-      <p>
-        Submitting this form does not guarantee availability. It ensures your request
-        is logged and reviewed if options open.
-      </p>
+<p>
+This page centralizes legitimate fan requests so details remain accurate and consistent.
+</p>
 
-      <form
-        action="https://formspree.io/f/mykgneeq"
-        method="POST"
-        onsubmit="document.getElementById('confirmation').style.display='block';"
-      >
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" required />
+<p>
+Submitting this form does not guarantee availability. Requests are logged and reviewed if options open.
+</p>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" required />
+<p>
+All responses are reviewed manually. No automated replies.
+</p>
 
-        <label for="location">City / State</label>
-        <input type="text" id="location" name="location" required />
+<form action="https://formspree.io/f/mykgneeq" method="POST">
+  <label>
+    Full Name<br>
+    <input type="text" name="name" required>
+  </label>
+  <br><br>
 
-        <label for="show">Preferred Show Location</label>
-        <input type="text" id="show" name="preferred_show" required />
+  <label>
+    Email Address<br>
+    <input type="email" name="email" required>
+  </label>
+  <br><br>
 
-        <label for="quantity">Number of Tickets Needed</label>
-        <input type="number" id="quantity" name="ticket_quantity" min="1" required />
+  <label>
+    City / State<br>
+    <input type="text" name="location" required>
+  </label>
+  <br><br>
 
-        <label for="notes">Notes (optional)</label>
-        <textarea id="notes" name="notes"></textarea>
+  <label>
+    Preferred Show Location<br>
+    <input type="text" name="show">
+  </label>
+  <br><br>
 
-        <button type="submit">Submit</button>
-      </form>
+  <label>
+    Number of Tickets Needed<br>
+    <input type="number" name="tickets" required>
+  </label>
+  <br><br>
 
-      <div id="confirmation" class="confirmation">
-        Thank you.<br /><br />
-        Your information has been received by the Jesus Generation Fan Access team.
-        <br /><br />
-        If availability or coordination applies to your request, you’ll be contacted
-        directly by email.
-      </div>
-    </div>
+  <label>
+    Notes (optional)<br>
+    <textarea name="message"></textarea>
+  </label>
+  <br><br>
 
-    <footer>
-      Jesus Generation Fan Access<br />
-      contact@jesusgeneration.vip
-    </footer>
-  </div>
-</body>
-</html>
+  <button type="submit">Submit</button>
+</form>
+
+<footer>
+  <p>
+    Jesus Generation Fan Access<br>
+    <a href="mailto:contact@jesusgeneration.vip">contact@jesusgeneration.vip</a>
+  </p>
+</footer>
