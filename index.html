@@ -1,72 +1,145 @@
-<h1>Jesus Generation Fan Access</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jesus Generation Fan Access</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6f7f8;
+      color: #222;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+    .content-box {
+      background: #ffffff;
+      padding: 30px 24px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
+      font-weight: bold;
+      color: #111;
+    }
+    p {
+      font-size: 16px;
+      margin: 14px 0;
+    }
+    form {
+      margin-top: 24px;
+    }
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    textarea {
+      height: 90px;
+      resize: vertical;
+    }
+    button {
+      background-color: #222;
+      color: #fff;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+    button:hover {
+      opacity: 0.95;
+    }
+    footer {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 28px;
+      color: #555;
+    }
+    footer a {
+      color: #222;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
 
-<p>
-Coordinating remaining fan access requests for upcoming tour dates.
-</p>
+  <div class="container">
+    <div class="content-box">
+      <h1>Jesus Generation Fan Access</h1>
 
-<p>
-This page is referenced in comment replies and direct messages across Facebook.
-</p>
+      <p>
+        Coordinating remaining fan access requests for upcoming tour dates.
+      </p>
 
-<p>
-Many families encountered pricing, resale, or availability issues after the initial ticket release.
-</p>
+      <p>
+        This page is referenced in comment replies and direct messages across Facebook.
+      </p>
 
-<p>
-This page centralizes legitimate fan requests so details remain accurate and consistent.
-</p>
+      <p>
+        Many families encountered pricing, resale, or availability issues after the initial ticket release.
+      </p>
 
-<p>
-Submitting this form does not guarantee availability. Requests are logged and reviewed if options open.
-</p>
+      <p>
+        This page centralizes legitimate fan requests so details remain accurate and consistent.
+      </p>
 
-<p>
-All responses are reviewed manually. No automated replies.
-</p>
+      <p>
+        Submitting this form does not guarantee availability. Requests are logged and reviewed if options open.
+      </p>
 
-<form action="https://formspree.io/f/mykgneeq" method="POST">
-  <label>
-    Full Name<br>
-    <input type="text" name="name" required>
-  </label>
-  <br><br>
+      <p>
+        All responses are reviewed manually. No automated replies.
+      </p>
 
-  <label>
-    Email Address<br>
-    <input type="email" name="email" required>
-  </label>
-  <br><br>
+      <form action="https://formspree.io/f/mykgneeq" method="POST">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required />
 
-  <label>
-    City / State<br>
-    <input type="text" name="location" required>
-  </label>
-  <br><br>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" required />
 
-  <label>
-    Preferred Show Location<br>
-    <input type="text" name="show">
-  </label>
-  <br><br>
+        <label for="location">City / State</label>
+        <input type="text" id="location" name="location" required />
 
-  <label>
-    Number of Tickets Needed<br>
-    <input type="number" name="tickets" required>
-  </label>
-  <br><br>
+        <label for="show">Preferred Show Location</label>
+        <input type="text" id="show" name="preferred_show" />
 
-  <label>
-    Notes (optional)<br>
-    <textarea name="message"></textarea>
-  </label>
-  <br><br>
+        <label for="tickets">Number of Tickets Needed</label>
+        <input type="number" id="tickets" name="ticket_quantity" min="1" required />
 
-  <button type="submit">Submit</button>
-</form>
+        <label for="notes">Notes (optional)</label>
+        <textarea id="notes" name="notes"></textarea>
 
-<footer>
-  <p>
-    Jesus Generation Fan Access<br>
-    <a href="mailto:contact@jesusgeneration.vip">contact@jesusgeneration.vip</a>
-  </p>
-</footer>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <p>
+        Jesus Generation Fan Access<br />
+        <a href="mailto:contact@jesusgeneration.vip">contact@jesusgeneration.vip</a>
+      </p>
+    </footer>
+  </div>
+
+</body>
+</html>
